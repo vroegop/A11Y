@@ -566,4 +566,6 @@ Scanner voor A11Y in de build pipeline
 
 ### Bedankt
 
-* Slides zijn beschikbaar op aanvraag
+Slides & voorbeelden zijn beschikbaar op:
+
+github.com/vroegop/A11Y
