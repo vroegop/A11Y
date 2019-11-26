@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Booking.com\, b.v.//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:2285925033@booking.com
+ORGANIZER;CN=Randy Vroegop:mailto:
+DTSTAMP:20191125T200800Z
+DTSTART:20191130T140000
+DTEND:20191206T110000
+SUMMARY:Residence Karolina
+LOCATION:Karoliny Svetle 4\, Prague 1\, Prague\, 110 00\, Czech Republic
+GEO:50.0821118532637;14.415555819869
+URL:https://secure.booking.com/myreservations.nl.html?aid=304142;label=gen173nr-1FCAEoggI46AdIM1gEaKkBiAEBmAEcuAEZyAEM2AEB6AEB-AELiAIBqAIDuALw1fDuBcACAQ;sid=7e011dea06efbeb7eef983bc00def623;auth_key=fKAR78YCeDC6QNZ7;srpvid=12a28b6163a60104&
+DESCRIPTION:Aankomst: zaterdag 30 november 2019, inchecken tussen 14:00 - 00:00\n\nVertrek: vrijdag 6 december 2019, uitchecken vóór 11:00\n\nU kunt hier uw boeking bekijken, wijzigen of annuleren
+END:VEVENT
+END:VCALENDAR

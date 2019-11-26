@@ -1,0 +1,47 @@
+<html lang="en" class="inited">
+
+<head>
+    <style>
+        .checkbox {
+            border: 1px solid black;
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+        }
+
+        [checked=true] {
+            background-color: green;
+        }
+
+        [checked=false] {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="myCheckbox" 
+         class="checkbox" 
+         checked="false" 
+         tabindex="0">
+    </div>
+
+    <script>
+        let checkbox = document.getElementById("myCheckbox");
+        let checked = () => checkbox.getAttribute('checked');
+        let newValue = () => checked() == 'true' ? 'false' : 'true';
+
+        checkbox.addEventListener("click", () => {
+            checkbox.setAttribute('checked', newValue());
+        });
+
+        checkbox.addEventListener("keydown", event => {
+            if (event.keyCode === 32) {
+                checkbox.setAttribute('checked', newValue());
+            }
+        });
+    </script>
+
+</body>
+
+</html>

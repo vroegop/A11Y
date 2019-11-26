@@ -1,0 +1,53 @@
+<html lang="en" class="inited">
+
+<head>
+    <style>
+        .checkbox {
+            border: 1px solid black;
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+        }
+
+        [checked=true] {
+            background-color: green;
+        }
+
+        [checked=false] {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="myCheckbox" 
+         class="checkbox" 
+         checked="false" 
+         tabindex="0"
+         role="checkbox"
+         aria-checked="false"
+         aria-label="Nieuwsbrief ontvangen">
+    </div>
+
+    <script>
+        let checkbox = document.getElementById("myCheckbox");
+        let checked = () => checkbox.getAttribute('checked');
+        let newValue = () => checked() == 'true' ? 'false' : 'true';
+
+        let setNewValue = () => {
+            checkbox.setAttribute('aria-checked', newValue());
+            checkbox.setAttribute('checked', newValue());
+        }
+
+        checkbox.addEventListener("click", setNewValue);
+
+        checkbox.addEventListener("keydown", event => {
+            if (event.keyCode === 32) {
+                setNewValue();
+            }
+        });
+    </script>
+
+</body>
+
+</html>
