@@ -1,16 +1,16 @@
-![](images/not-a11y-1.jpg)
+![not-a11y](images/not-a11y-1.jpg)
 
----
+--
 
-![](images/not-a11y-2.jpg)
+![not-a11y](images/not-a11y-2.jpg)
 
----
+--
 
-![](images/not-a11y-4.jpg)
+![not-a11y](images/not-a11y-3.jpg)
 
----
+--
 
-![](images/not-a11y-3.jpg)
+![not-a11y](images/not-a11y-4.jpg)
 
 ---
 
@@ -24,9 +24,7 @@ Randy Vroegop
 linkedin.com/in/randy-vroegop
 <p>
 
-<randy>
-![randy](images/randy.jpg)
-</randy>
+<img src="https://stackexchange.com/users/flair/1868353.png" width="208" height="58" alt="profile for Randy on Stack Exchang">
 
 ---
 
@@ -85,7 +83,7 @@ Dom wordt ook een A11Y tree
 
 --
 
-![](images/DOM-a11y-tree.png)
+![dom-a11y-tree](images/DOM-a11y-tree.png)
 
 --
 
@@ -323,6 +321,8 @@ Note:
 
 Almost live coding.
 
+[codepen](https://codepen.io/rjpvroegop/pens/public)
+
 --
 
 ```html
@@ -510,7 +510,7 @@ Almost live coding.
 
 ## Videocast by Chrome Team
 
-youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
+[youtube](https://youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g)
 
 (bit.ly/a11ycasts)
 
@@ -518,7 +518,8 @@ youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g
 
 ## Google A11Y Fundamentals
 
-developers.google.com/web/fundamentals/accessibility/
+[developers.google.com](https://developers.google.com/web/fundamentals/accessibility/)
+
 
 (bit.ly/a11y-fundamentals)
 
@@ -532,7 +533,7 @@ Chrome -> <kdb>F12</kdb> -> Audits -> Accessibility
 
 ## Wave browser extension
 
-wave.webaim.org
+[wave.webaim.org](https://wave.webaim.org)
 
 Scanner die A11Y problemen kan detecteren.
 
@@ -545,7 +546,7 @@ Scanner die A11Y problemen kan detecteren.
 
 ## Axe browser extension
 
-deque.com/axe/
+[deque.com/axe/](https://deque.com/axe/)
 
 Scanner die A11Y problemen kan detecteren.
 
@@ -558,7 +559,7 @@ Scanner die A11Y problemen kan detecteren.
 
 ## Ontwikkelstraat
 
-aslint.org
+[aslint.org](https://aslint.org)
 
 Scanner voor A11Y in de build pipeline
 
@@ -568,4 +569,4 @@ Scanner voor A11Y in de build pipeline
 
 Slides & voorbeelden zijn beschikbaar op:
 
-github.com/vroegop/A11Y
+[github.com/vroegop/A11Y](https://github.com/vroegop/A11Y)

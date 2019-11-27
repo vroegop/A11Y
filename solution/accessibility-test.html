@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axe-core/2.1.7/axe.js"></script>
+    <style>
+        button {
+            display: block;
+        }
+
+        img {
+            max-height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <button>I'm a button</button>
+
+    <img src="https://bit.ly/2pWd1BR">
+
+    <script>
+        axe.run(function (err, results) {
+            if (results.violations.length) {
+                console.table(results.violations);
+            }
+        });
+    </script>
+</body>
+
+</html>
